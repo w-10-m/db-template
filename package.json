@@ -1,12 +1,12 @@
 {
   "name": "@west10media/db",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Repository for the database entities of the w10m db projects",
   "author": "West 10 Media LLC",
   "private": false,
   "license": "UNLICENSED",
-  "main": "dist/entities.module.js",
-  "types": "dist/entities.module.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist/**/*",
     "package.json"

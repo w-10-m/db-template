@@ -4,6 +4,7 @@ import { Example } from './entities/example.entity';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Example])],
+  providers: [Example],
   exports: [TypeOrmModule, Example],
 })
 export class EntitiesModule {}
