@@ -1,6 +1,6 @@
 {
   "name": "@west10media/db",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Repository for the database entities of the w10m db projects",
   "author": "West 10 Media LLC",
   "private": false,
