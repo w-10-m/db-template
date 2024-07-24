@@ -1,4 +1,4 @@
-import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column,  } from 'typeorm';
 
 @Entity()
 export class Example {
@@ -10,4 +10,7 @@ export class Example {
 
   @Column()
   email: string;
+
+  @Column({ nullable: true })
+  notes?: string;
 }
