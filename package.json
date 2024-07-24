@@ -1,15 +1,19 @@
 {
-  "name": "physio-ai-db",
+  "name": "@west10media/db",
   "version": "0.0.1",
-  "description": "Repository for the database entities of the Physio AI project",
+  "description": "Repository for the database entities of the w10m db projects",
   "author": "West 10 Media LLC",
   "private": true,
   "license": "UNLICENSED",
   "main": "dist/entities.module.js",
   "types": "dist/entities.module.d.ts",
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "package.json"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "nest build",
     "prepublishOnly": "npm run build",
@@ -22,7 +26,8 @@
   },
   "dependencies": {
     "reflect-metadata": "^0.2.0",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "typeorm": "^0.3.20"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
