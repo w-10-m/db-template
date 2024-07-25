@@ -1,7 +1,8 @@
 {
-  "name": "@west10media/db",
+  "name": "@w-10-m/db",
   "version": "0.0.8",
   "description": "Repository for the database entities of the w10m db projects",
+  "reppository": "https://github.com/w-10-m/db-template.git",
   "author": "West 10 Media LLC",
   "private": false,
   "license": "UNLICENSED",
@@ -11,9 +12,6 @@
     "dist/**/*",
     "package.json"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "build": "nest build",
     "prepublishOnly": "npm run build",
